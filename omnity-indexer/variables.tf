@@ -111,3 +111,8 @@ variable "ROOTSTOCK_CHAIN_ID" {
   description = "ROOTSTOCK_CHAIN_ID"
   type        = string
 }
+
+variable "BITFINITY_CHAIN_ID" {
+  description = "BITFINITY_CHAIN_ID"
+  type        = string
+}

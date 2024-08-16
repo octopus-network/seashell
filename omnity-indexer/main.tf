@@ -34,6 +34,7 @@ resource "kubernetes_config_map" "default" {
     MERLIN_CHAIN_ID                    = var.MERLIN_CHAIN_ID
     BOB_CHAIN_ID                       = var.BOB_CHAIN_ID
     ROOTSTOCK_CHAIN_ID                 = var.ROOTSTOCK_CHAIN_ID
+    BITFINITY_CHAIN_ID                 = var.BITFINITY_CHAIN_ID
   }
 }
 
