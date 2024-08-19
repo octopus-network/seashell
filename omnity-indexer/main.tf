@@ -35,6 +35,7 @@ resource "kubernetes_config_map" "default" {
     BOB_CHAIN_ID                       = var.BOB_CHAIN_ID
     ROOTSTOCK_CHAIN_ID                 = var.ROOTSTOCK_CHAIN_ID
     BITFINITY_CHAIN_ID                 = var.BITFINITY_CHAIN_ID
+    AILAYER_CHAIN_ID                   = var.AILAYER_CHAIN_ID
   }
 }
 

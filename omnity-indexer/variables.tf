@@ -116,3 +116,8 @@ variable "BITFINITY_CHAIN_ID" {
   description = "BITFINITY_CHAIN_ID"
   type        = string
 }
+
+variable "AILAYER_CHAIN_ID" {
+  description = "AILAYER_CHAIN_ID"
+  type        = string
+}
