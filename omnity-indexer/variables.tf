@@ -121,3 +121,8 @@ variable "AILAYER_CHAIN_ID" {
   description = "AILAYER_CHAIN_ID"
   type        = string
 }
+
+variable "OMNITY_CUSTOMS_ICP_CANISTER_ID" {
+  description = "OMNITY_CUSTOMS_ICP_CANISTER_ID"
+  type        = string
+}

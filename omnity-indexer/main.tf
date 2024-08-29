@@ -36,6 +36,7 @@ resource "kubernetes_config_map" "default" {
     ROOTSTOCK_CHAIN_ID                 = var.ROOTSTOCK_CHAIN_ID
     BITFINITY_CHAIN_ID                 = var.BITFINITY_CHAIN_ID
     AILAYER_CHAIN_ID                   = var.AILAYER_CHAIN_ID
+    OMNITY_CUSTOMS_ICP_CANISTER_ID     = var.OMNITY_CUSTOMS_ICP_CANISTER_ID
   }
 }
 
