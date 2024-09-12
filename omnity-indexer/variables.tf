@@ -126,3 +126,13 @@ variable "OMNITY_CUSTOMS_ICP_CANISTER_ID" {
   description = "OMNITY_CUSTOMS_ICP_CANISTER_ID"
   type        = string
 }
+
+variable "OSMOSIS_TEST5_CHAIN_ID" {
+  description = "OSMOSIS_TEST5_CHAIN_ID"
+  type        = string
+}
+
+variable "OSMOSIS1_CHAIN_ID" {
+  description = "OSMOSIS1_CHAIN_ID"
+  type        = string
+}
