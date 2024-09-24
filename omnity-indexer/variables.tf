@@ -136,3 +136,8 @@ variable "OSMOSIS1_CHAIN_ID" {
   description = "OSMOSIS1_CHAIN_ID"
   type        = string
 }
+
+variable "OMNITY_ROUTES_SOLANA_CANISTER_ID" {
+  description = "OMNITY_ROUTES_SOLANA_CANISTER_ID"
+  type        = string
+}
