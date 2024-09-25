@@ -40,6 +40,7 @@ resource "kubernetes_config_map" "default" {
     OSMOSIS_TEST5_CHAIN_ID             = var.OSMOSIS_TEST5_CHAIN_ID
     OSMOSIS1_CHAIN_ID                  = var.OSMOSIS1_CHAIN_ID
     OMNITY_ROUTES_SOLANA_CANISTER_ID   = var.OMNITY_ROUTES_SOLANA_CANISTER_ID
+    EVM_CANISTER_ID                    = var.EVM_CANISTER_ID
   }
 }
 

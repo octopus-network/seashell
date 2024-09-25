@@ -141,3 +141,8 @@ variable "OMNITY_ROUTES_SOLANA_CANISTER_ID" {
   description = "OMNITY_ROUTES_SOLANA_CANISTER_ID"
   type        = string
 }
+
+variable "EVM_CANISTER_ID" {
+  description = "EVM_CANISTER_ID"
+  type        = string
+}
