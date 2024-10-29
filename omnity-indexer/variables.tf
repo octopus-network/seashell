@@ -151,3 +151,8 @@ variable "OMNITY_CUSTOMS_BITCOIN_BRC20_CANISTER_ID" {
   description = "OMNITY_CUSTOMS_BITCOIN_BRC20_CANISTER_ID"
   type        = string
 }
+
+variable "CORE_CANISTER_ID" {
+  description = "CORE_CANISTER_ID"
+  type        = string
+}
