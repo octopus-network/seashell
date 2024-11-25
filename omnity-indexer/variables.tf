@@ -156,3 +156,8 @@ variable "CORE_CANISTER_ID" {
   description = "CORE_CANISTER_ID"
   type        = string
 }
+
+variable "TON_CANISTER_ID" {
+  description = "TON_CANISTER_ID"
+  type        = string
+}
