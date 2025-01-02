@@ -128,6 +128,7 @@ resource "kubernetes_stateful_set" "default" {
             "-rpcbind=0.0.0.0",
             "-rpcuser=${var.bitcoind.rpc.user}",
             "-rpcpassword=${var.bitcoind.rpc.password}",
+            "-deprecatedrpc=warnings",
           ]
           port {
             container_port = 8333
