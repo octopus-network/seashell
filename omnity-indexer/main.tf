@@ -45,6 +45,7 @@ resource "kubernetes_config_map" "default" {
     CORE_CANISTER_ID                   = var.CORE_CANISTER_ID
     TON_CANISTER_ID                    = var.TON_CANISTER_ID
     OMNITY_CUSTOMS_DOGECOIN_CANISTER_ID= var.OMNITY_CUSTOMS_DOGECOIN_CANISTER_ID
+    SUI_CANISTER_ID                    = var.SUI_CANISTER_ID
   }
 }
 

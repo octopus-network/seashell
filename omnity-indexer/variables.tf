@@ -166,3 +166,8 @@ variable "OMNITY_CUSTOMS_DOGECOIN_CANISTER_ID" {
   description = "OMNITY_CUSTOMS_DOGECOIN_CANISTER_ID"
   type        = string
 }
+
+variable "SUI_CANISTER_ID" {
+  description = "SUI_CANISTER_ID"
+  type        = string
+}
